@@ -1,9 +1,11 @@
-<section class="login-container container-fluid">
-  <h1>Gestor de Imobiliárias</h1>
-  <h3>Logar</h3>
-  <input type="email" name="inputEmail" [(ngModel)]="email" />
-  <input type="password" name="inputPassword" [(ngModel)]="password" />
-  <p> Esqueceu a senha? </p>
-  <p> Gostaria de Testar? </p>
-  <button (click)="logar()">LOGAR</button>
+
+<section class="login-container col-md-3 text-center">
+  <div class="">
+    <h1>Gestor de Imobiliárias</h1>
+    <input class="form-control" placeholder="EMAIL " type="email" name="inputEmail" [(ngModel)]="email" />
+    <input class="form-control" placeholder="SENHA" type="password" name="inputPassword" [(ngModel)]="password" />
+    <p>Esqueceu a senha?</p>
+    <p>Gostaria de Testar?</p>
+    <button class="btn btn-primary" (click)="logar()">LOGAR</button>
+  </div>
 </section>
