@@ -12,7 +12,7 @@ export class LoginService {
   private user: User | any;
 
   constructor(private http: HttpClient) {
-    this.baseUrl = environment.api;
+    this.baseUrl = environment.apiLogin;
   }
 
   doLogin(email:string,password:string):Observable<User>{

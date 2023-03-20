@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  api:'https://pokeapi.co/api/v2/pokemon/'
+  apiLogin:'http://localhost:5000/api/login/'
 };
