@@ -1,8 +1,9 @@
-<mat-toolbar color="accent">
+<mat-toolbar color="accent" class="headerMenu">
   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
     <mat-icon >menu</mat-icon>
   </button>
-  <span class="px-4">Gestor Morada do Sol</span>
+  <span>Gestor Morada do Sol</span>
+  <a [routerLink]="['/login']" mat-stroked-button>Logar</a>
 </mat-toolbar>
 
 

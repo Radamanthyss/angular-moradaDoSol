@@ -15,8 +15,8 @@ export class LoginService {
     this.baseUrl = environment.apiLogin;
   }
 
-  doLogin(email:string,password:string):Observable<User>{
-    this.user = this.http.get(this.baseUrl);
-    return this.user;
-  }
+  //doLogin(email:string,password:string):Observable<User>{
+   // this.user = this.http.get(this.baseUrl);
+   // return this.user;
+  //}
 }

@@ -17,13 +17,14 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {}
 
   logar() {
-    this.service.doLogin(this.email, this.password).subscribe({
-      next: (res) => {
-        console.log(res);
-      },
-      error: (err) => {
-        console.log(err);
-      },
-    });
+    //  this.service.doLogin(this.email, this.password).subscribe({
+    //    next: (res) => {
+    //      console.log(res);
+    //    },
+    //    error: (err) => {
+    //      console.log(err);
+    //    },
+    //  });
+    console.log('clicou no logar');
   }
 }
